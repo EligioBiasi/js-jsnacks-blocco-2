@@ -7,6 +7,6 @@ let fifty = 0;
 while(fifty<50){
     let numberAdded = parseInt(prompt('inserisci un numero'));
     fifty+=numberAdded
-    emptyBox.push(numberAdded);
+    emptyBox.push(fifty);
 }
 console.log(emptyBox)
