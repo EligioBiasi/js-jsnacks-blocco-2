@@ -10,8 +10,8 @@ while(playerNumber!=randomNumber){
         playerNumber = parseInt(prompt('riprova'));
     }else{
         console.log('the pc number is higher')
-        playerNumber = parseInt(prompt('riprova'))
+       playerNumber = parseInt(prompt('riprova'))
     }
-} 
+}
 console.log('your guess is right')
-alert('hai indovinato');
+        alert('hai indovinato');
