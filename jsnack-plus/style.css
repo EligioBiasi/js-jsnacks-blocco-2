@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: salmon;
+}
+
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    margin-top: 2rem;
+}
+
+.line{
+    text-decoration: line-through;
+    color: lime;
+}

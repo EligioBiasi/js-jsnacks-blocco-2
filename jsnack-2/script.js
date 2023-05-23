@@ -14,4 +14,4 @@ while(playerNumber!=randomNumber){
     }
 }
 console.log('your guess is right')
-        alert('hai indovinato');
+alert('hai indovinato');
