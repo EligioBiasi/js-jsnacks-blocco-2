@@ -10,7 +10,7 @@
 
 // Creare un oggetto che rappresenti un giocatore di basket, con le seguenti proprietà:
 const playerData = {
-    code: " ",
+    code: (makeid(3, 'ABCDEFGHILMNOPQRSTUVZKWYX') + randomNum(9,0) + randomNum(9,0) + randomNum(9,0)),
     name : 'giorgio',
     surname : 'Giorgi',
     age:24,
@@ -33,3 +33,14 @@ function randomNum(maxNum, minNum) {
 
 
 //     il codice giocatore deve essere formato da 3 lettere maiuscole casuali e 3 cifre casuali
+
+function makeid(length, allowedChars) {
+    let result = '';    
+    let counter = 0;
+
+    while (counter < length) {
+      result += allowedChars.charAt(Math.floor(Math.random() * allowedChars.length));
+      counter ++;
+    }
+    return result;
+}
